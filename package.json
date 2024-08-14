@@ -1,0 +1,24 @@
+{
+  "name": "protobot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.45",
+    "ai": "^3.3.6",
+    "next": "14.2.5",
+    "openai": "^4.55.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "web-streams-polyfill": "^4.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
